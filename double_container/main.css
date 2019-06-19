@@ -1,0 +1,27 @@
+header {
+    width: 100%;
+    height: 100px;
+    background-color: beige;
+}
+
+header > div {
+    max-width: 1000px;
+    width: 100%;
+    height: 100%;
+    background-color: darksalmon;
+    margin: 0 auto;
+}
+
+main {
+    width: 100%;
+    height: calc(100vh - 100px);
+    background-color: purple;
+}
+
+main > div {
+    max-width: 1000px;
+    width: 100%;
+    height: 100%;
+    background-color: goldenrod;
+    margin: 0 auto;
+}

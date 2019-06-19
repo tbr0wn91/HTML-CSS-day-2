@@ -20,6 +20,20 @@ header > div {
     font-weight: 700;
 }
 
+ header img {
+    width: 60px;
+}
+
+
+.input {
+    background-color: rgb(105, 101, 101);
+    border: 0;
+    border-radius: 3px;
+    
+    
+}
+
+
 
 
 header ul {

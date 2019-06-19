@@ -1,0 +1,44 @@
+body {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.parent {
+    height: 70%;
+    width: 70%;
+    background: chartreuse;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    /* flex-direction: column; */
+}
+
+.parent > div {
+    width: 100px;
+    height: 100px;
+    background-color: orange;
+}
+
+.parent > div:nth-child(1) {
+    background: orange;
+    flex: 1;
+}
+
+
+.parent > div:nth-child(2) {
+    background: blue;
+    /* align-self: flex-end; */
+    flex: 2;
+}
+
+.parent > div:nth-child(3) {
+    background: red;
+    flex: 5;
+}
+
+.parent > div:nth-child(4) {
+    background: pink;
+}

@@ -1,0 +1,67 @@
+
+a {
+    text-decoration: none;
+    color: purple;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+
+header {
+    width: 100%;
+    height: 80px;
+    
+}
+
+header > div {
+    max-width: 1000px;
+    height: 100%;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header img {
+    width: 60px;
+}
+
+header ul {
+    display: flex;
+}
+
+header ul li {
+    margin: 0 10px;
+}
+
+.content {
+    width: 100%;
+    height: 300px;
+    background-color: aqua;
+}
+
+.content > div {
+    max-width: 1000px;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.content > div img {
+    width: 175px;
+
+}
+
+.bg-shared {
+    background-size: cover;
+    background-attachment: center center;
+    background-attachment: fixed;
+}
+
+.bg-1 {
+    background-image: url("./media/bg_image_1.jpg");
+}
